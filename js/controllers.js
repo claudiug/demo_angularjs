@@ -10,4 +10,6 @@ phoneApp.controller('phoneList', function($scope){
         {'name': 'iphone', 'snippet': 'girlfriend phone'},
         {'name': 'google x', 'snippet': 'next phone'}
     ]
+
+    $scope.orderProp = 'age';
 })
